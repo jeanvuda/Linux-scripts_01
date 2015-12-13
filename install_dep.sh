@@ -14,7 +14,7 @@ sudo apt-get install oracle-java8-installer
 # Install Pycharm
 mkdir -p ~/opt/packages/pycharm
 cd ~/opt/packages/pycharm
-wget http://download.jetbrains.com/python/pycharm-5.0.2.tar.gz
+wget https://download.jetbrains.com/python/pycharm-community-5.0.2.tar.gz
 gzip -dc pycharm-5.0.2.tar.gz | tar xf -
 ln -s ~/opt/packages/pycharm/pycharm-community-4.0.4 ~/opt/pycharm
 
