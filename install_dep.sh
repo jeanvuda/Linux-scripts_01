@@ -18,5 +18,5 @@ wget https://download.jetbrains.com/python/pycharm-community-5.0.2.tar.gz
 gzip -dc pycharm-community-5.0.2.tar.gz | tar xf -
 ln -s ~/opt/packages/pycharm/pycharm-community-5.0.2 ~/opt/pycharm
 
-# Start PyCharm
-~/opt/pycharm/bin/pycharm.sh
+# Start PyCharm (Run in terminal)
+# ~/opt/pycharm/bin/pycharm.sh
