@@ -1,0 +1,14 @@
+
+
+for ad in kijiji_ads:
+    try:
+        ad_id = ad.find_all('div',{'class':"watch"})[0].get('data-adid')
+        title = ad.find_all('a',{"class":"title"})[0].text.strip()
+        description = ad.find_all("div", {"class":"description"})[0].text.strip()
+        price = ad.find_all('div',{"class":"price"})[0].text.strip()
+        print(ad_id), print(title), 
+        print('http://www.kijiji.ca' + ad.get("data-vip-url")),
+        print(description),
+        print(price)
+    except:
+        pass
